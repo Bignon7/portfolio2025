@@ -43,15 +43,6 @@ html {
 	height: 100%;
 }
 
-
-.theme-transition *,
-.theme-transition *::before,
-.theme-transition *::after {
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
-}
-
-
-
 body {
 	height: 100%;
 	font-family: 'Livvic', sans-serif;
@@ -607,6 +598,10 @@ header .mobile-menu {
 	right: 60px;
 	top: calc(50vh - 30px);
 	z-index: 1;
+}
+
+.home>div>div h1 > span > span > span {
+    text-shadow: 8px 8px #a914ff, 20px 20px #222;
 }
 
 /*** ABOUT SECTION ***/
@@ -1811,6 +1806,12 @@ header .mobile-menu {
 
 	.hide-desktop {
 		display: none !important;
+	}
+	#thytaine {
+		/* color:red;
+		-webkit-text-stroke-color: red;
+		text-shadow: 8px 8px red, 20px 20px blue; */
+		padding-bottom: 30px;
 	}
 }
 
