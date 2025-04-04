@@ -2600,3 +2600,19 @@ header .mobile-menu {
 		padding: 20px 0 30px;
 	}
 }
+
+
+.my-presentation {
+	min-height: 460px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	
+}
+
+.my-presentation-content div{
+	text-align: justify;
+    width: 100%;
+    display: block;
+	min-width: 460px;
+}
