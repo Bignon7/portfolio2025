@@ -2796,7 +2796,12 @@ header .mobile-menu {
 	z-index: 1;
 	box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
   }
-  
+  @media (max-width: 768px) {
+	.blog-content .btn-custom {
+		font-weight: 450;
+		letter-spacing: 0.3px;
+	}
+}
   .blog-content .btn-custom::before {
 	content: '';
 	position: absolute;
