@@ -2801,6 +2801,7 @@ header .mobile-menu {
 		font-weight: 450;
 		letter-spacing: 0.3px;
 		white-space: nowrap;
+		display: inline-block;
 	}
 }
   .blog-content .btn-custom::before {
