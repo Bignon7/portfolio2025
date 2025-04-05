@@ -2800,6 +2800,7 @@ header .mobile-menu {
 	.blog-content .btn-custom {
 		font-weight: 450;
 		letter-spacing: 0.3px;
+		white-space: nowrap;
 	}
 }
   .blog-content .btn-custom::before {
