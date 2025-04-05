@@ -2616,7 +2616,7 @@ header .mobile-menu {
 
 
 
-.my-presentation, .my-presentation-content div {
+.my-presentation, .my-presentation-content , .my-presentation-content div {
     display: none;
 }
 
